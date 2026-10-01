@@ -10,8 +10,9 @@
   display: none;
 }
 body {
-  height: 100vh;
+  margin-top: 4rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #f2f2f2;
@@ -53,4 +54,49 @@ body {
 
 .counter-btn:hover {
   transform: scale(1.1);
+}
+
+.digital-clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin-top: 2rem;
+  border-radius: 10px;
+  padding: 2rem;
+  color: aqua;
+  display: flex;
+  font-size: 20px;
+  width: 50%;
+  height: 100px;
+}
+.date {
+  background-color: black;
+  color: aqua;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.randomBtn {
+  padding: 1rem 2rem;
+  background-color: aqua;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 3rem;
+  color: black;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
+.random {
+  background-color: black;
+  color: aqua;
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: 50px;
+  height: 40px;
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
